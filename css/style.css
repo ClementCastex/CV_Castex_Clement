@@ -1,0 +1,57 @@
+html {
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 70px;
+  text-align: right;
+  font-family: Montserrat, regular;
+  color: #f1ba7a;
+}
+.st-placement {
+  width: 50%;
+}
+
+.sous-titre {
+  font-size: 38px;
+  text-align: left;
+  font-family: Montserrat, light;
+  block-size: ;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.st-gras {
+  font-size: 43px;
+  text-align: right;
+  font-family: Montserrat, light;
+}
+
+h2 {
+  background-color: #f1ba7a;
+  font-size: 30px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+body {
+}
+
+p,
+ul,
+section {
+  background-color: #ebebeb;
+  border-radius: 30px;
+}
+
+li {
+}
+
+.align_l {
+  text-align: left;
+}
+
+.align_r {
+  text-align: right;
+}
+img {
+  text-align: top, right;
+}

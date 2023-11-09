@@ -3,45 +3,62 @@
   <head>
     <title>CV_Clement_Castex</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="stylesheet" href="\css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <header>
-      <img src="https://fakeimg.pl/200x200/?text=Matête" alt="matete" />
       <h1>Clément Castex</h1>
-      <p>
-        étudiant recherche un CDI en tant que web designer a partir de 11/2023
-      </p>
+      <img src="https://fakeimg.pl/200x200/?text=Matête" alt="matete" />
+      <div class="st-placement">
+        <p class="sous-titre">
+          <strong class="st-gras">Étudiant</strong> recherche un CDI en tant que
+          web designer a partir de 11/2023
+        </p>
+      </div>
     </header>
     <!-- j'ai mis un header parce que c'était la partie plus grand dans mon CV et sera plus facile a editer en css plus tard -->
     <main>
-      <div>
-        <div>
-          <h2><strong>Langue</strong></h2>
-          <!--chaque partie de mon cv va etre séparer en petite categorie separer par des div-->
+      <div class="align_l">
+        <h2><strong>Langue</strong></h2>
+        <!--chaque partie de mon cv va etre séparer en petite categorie separer par des div-->
+        <section>
           <ul>
             <li>Anglais : B1</li>
             <li>Coréen : en cours d'apprentissage</li>
           </ul>
-        </div>
-        <div>
-          <h2><strong>Loisir</strong></h2>
+        </section>
+        <h2><strong>Loisir</strong></h2>
+        <section>
           <ul>
             <li>Tennis (9 ans )</li>
             <li>Dessin : Papier & Numérique ( 1 ans )</li>
             <li>Cinéma ( Action / Fantaisie )</li>
             <li>Jeux vidéos ( Survie / PvP / Gestions)</li>
           </ul>
-        </div>
-        <div>
-          <h2><strong>Soft Skill</strong></h2>
+        </section>
+        <h2><strong>Soft Skill</strong></h2>
+        <section>
           <ul>
             <li>Travail d'équipe</li>
             <li>Créatif</li>
@@ -50,20 +67,20 @@
             <li>Imaginatif</li>
             <li>Curieux</li>
           </ul>
-        </div>
-        <div>
-          <h2><strong>Hard Skill</strong></h2>
+        </section>
+        <h2><strong>Hard Skill</strong></h2>
+        <section>
           <ul>
             <li>Krita ( Dessin )</li>
             <li>Illustrator</li>
             <li>InDesign</li>
             <li>Photoshop</li>
           </ul>
-        </div>
+        </section>
       </div>
-      <div>
-        <div>
-          <h2><strong>Profil</strong></h2>
+      <div class="align_r">
+        <h2><strong>Profil</strong></h2>
+        <section>
           <p>
             Ayant fait un Bac général en spécialité SI que j'ai<br />
             fait dès la 2nd en option, j'y aï découvert le<br />
@@ -71,11 +88,13 @@
             Normandie Web School j'y ai appris les différents<br />
             métiers du numérique tel que la communication graphique.<br />
           </p>
-        </div>
-        <div>
-          <h2><strong>Projet Pro</strong></h2>
-          <strong>2023</strong> Création d'une application mobile pour la<br />
-          gestion d'un réfrigérateur réalisé en Terminal<br />
+        </section>
+        <h2><strong>Projet Pro</strong></h2>
+        <section>
+          <p>
+            <strong>2023</strong> Création d'une application mobile pour la<br />
+            gestion d'un réfrigérateur réalisé en Terminal
+          </p>
           <ul>
             <li>Projet de Groupe</li>
             <li>
@@ -84,9 +103,9 @@
               d'alarme/notification en cas de mauvaise fermeture
             </li>
           </ul>
-        </div>
-        <div>
-          <h2><strong>Formation</strong></h2>
+        </section>
+        <h2><strong>Formation</strong></h2>
+        <section>
           <p>
             <strong>2023-2026 Bachelor Chef de Projet Digital</strong><br />
             <em
@@ -99,10 +118,11 @@
             <li>Création de charte graphique</li>
             <li>Création de Site</li>
           </ul>
-          <strong>2022-2023</strong> BAC Géneral -
-          <a href="https://galilee.lycee.ac-normandie.fr">Lycée Galilée</a
-          >,<br />
-          Franqueville St Pierre
+          <p>
+            <strong>2022-2023</strong> BAC Géneral -
+            <a href="https://galilee.lycee.ac-normandie.fr">Lycée Galilée</a>
+            Franqueville St Pierre
+          </p>
           <ul>
             <li>Spécialités :</li>
           </ul>
@@ -110,7 +130,7 @@
             <li>Maths</li>
             <li>Science de l'ingénieur</li>
           </ul>
-        </div>
+        </section>
       </div>
     </main>
     <footer>
