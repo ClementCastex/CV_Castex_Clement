@@ -42,7 +42,8 @@ h1 {
 h2 {
   background-color: #f1ba7a;
   font-size: 30px;
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   font-family: Montserrat, regular;
   text-align: center;
 }
