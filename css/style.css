@@ -57,19 +57,42 @@ h2 {
   align-self: center;
 }
 
-.align_l,
+.box-l,
 footer {
   text-align: left;
   width: 40%;
   flex: 2;
 }
 
-.align_r {
+.box-r {
   text-align: left;
   width: 60%;
   flex: 3;
 }
+.box2 {
+  display: flex;
+  width: auto;
+  grid-template-columns: 100px;
+  align-items: start;
+  justify-content: space-between;
+}
 
+.boxé :first-child {
+  align-self: center;
+}
+
+.box2-l,
+footer {
+  text-align: left;
+  width: 40%;
+  flex: 2;
+}
+
+.box2-r {
+  text-align: left;
+  width: 60%;
+  flex: 3;
+}
 img {
   float: top, left;
 }
