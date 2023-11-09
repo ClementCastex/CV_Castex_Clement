@@ -1,21 +1,33 @@
 html {
   background-color: #ffffff;
 }
+header {
+  background-color: #ffffff;
+}
+p,
+ul,
+.fond-gris {
+  background-color: #ebebeb;
+  border-radius: 30px;
+  font-family: Montserrat, regular;
+}
+
 h1 {
   font-size: 70px;
   text-align: right;
   font-family: Montserrat, regular;
   color: #f1ba7a;
+  float: right;
 }
 .st-placement {
-  width: 50%;
+  inline-size: 45%;
+  text-align: right;
 }
 
 .sous-titre {
   font-size: 38px;
   text-align: left;
   font-family: Montserrat, light;
-  block-size: ;
   border-radius: 30px;
   background-color: #ffffff;
 }
@@ -28,30 +40,36 @@ h1 {
 h2 {
   background-color: #f1ba7a;
   font-size: 30px;
-  margin-left: 50px;
   border-radius: 30px;
+  font-family: Montserrat, regular;
+  text-align: center;
 }
 
-body {
+.box {
+  display: flex;
+  width: 1000px;
+  grid-template-columns: 100px;
+  align-items: start;
+  justify-content: space-between;
 }
 
-p,
-ul,
-section {
-  background-color: #ebebeb;
-  border-radius: 30px;
+.box :first-child {
+  align-self: center;
 }
 
-li {
-}
-
-.align_l {
+.align_l,
+footer {
   text-align: left;
+  width: 40%;
+  flex: 2;
 }
 
 .align_r {
-  text-align: right;
+  text-align: left;
+  width: 60%;
+  flex: 3;
 }
+
 img {
-  text-align: top, right;
+  float: top, left;
 }
