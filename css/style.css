@@ -4,16 +4,18 @@ html {
 header {
   background-color: #ffffff;
 }
-p,
-ul,
-.fond-gris {
+
+.box-r .fond-gris {
   background-color: #ebebeb;
   border-radius: 30px;
   font-family: Montserrat, regular;
 }
+.police {
+  font-family: Montserrat, regular;
+}
 
 h1 {
-  font-size: 70px;
+  font-size: 5rem;
   text-align: right;
   font-family: Montserrat, regular;
   color: #f1ba7a;
@@ -48,9 +50,6 @@ h2 {
 .box {
   display: flex;
   width: 1000px;
-  grid-template-columns: 100px;
-  align-items: start;
-  justify-content: space-between;
 }
 
 .box :first-child {
@@ -62,6 +61,7 @@ footer {
   text-align: left;
   width: 40%;
   flex: 2;
+  margin: 1rem;
 }
 
 .box-r {
@@ -72,17 +72,13 @@ footer {
 .box2 {
   display: flex;
   width: auto;
-  grid-template-columns: 100px;
-  align-items: start;
-  justify-content: space-between;
 }
 
-.boxé :first-child {
-  align-self: center;
+.box2 :first-child {
+  align-self: auto;
 }
 
-.box2-l,
-footer {
+.box2-l {
   text-align: left;
   width: 40%;
   flex: 2;
@@ -95,4 +91,7 @@ footer {
 }
 img {
   float: top, left;
+}
+.box-l {
+  background: #f1ba7a;
 }
