@@ -65,7 +65,17 @@ footer {
   z-index: 5;
 }
 
-footer li::before {
+.mail::before {
+  content: url();
+}
+
+.tel::before {
+  content: url();
+}
+
+.linkedin::before {
+  content: url("");
+  margin-right: 6px;
 }
 
 /* Contacter Section */
@@ -85,7 +95,6 @@ footer li::before {
 .box,
 .box2 {
   display: flex;
-  width: auto;
 }
 
 .box,
