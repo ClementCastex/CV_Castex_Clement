@@ -3,6 +3,9 @@ html {
 }
 header {
   background-color: #ffffff;
+  display: flex;
+  width: 1080px;
+  height: 28rem;
 }
 
 .box-r .fond-gris {
@@ -15,33 +18,31 @@ header {
 }
 
 h1 {
-  font-size: 5rem;
-  text-align: right;
+  position: sticky;
+  top: 1px;
+  font-size: 4.3rem;
   font-family: Montserrat, regular;
   color: #f1ba7a;
-  float: right;
 }
 .st-placement {
-  inline-size: 45%;
-  text-align: right;
 }
 
 .sous-titre {
-  font-size: 38px;
+  font-size: 2.6rem;
   text-align: left;
   font-family: Montserrat, light;
   border-radius: 30px;
   background-color: #ffffff;
 }
 .st-gras {
-  font-size: 43px;
+  font-size: 3.3rem;
   text-align: right;
   font-family: Montserrat, light;
 }
 
 h2 {
   background-color: #f1ba7a;
-  font-size: 30px;
+  font-size: 1.875rem;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   font-family: Montserrat, regular;
@@ -50,7 +51,7 @@ h2 {
 
 .box {
   display: flex;
-  width: 1000px;
+  width: 1080px;
 }
 
 .box :first-child {
@@ -91,8 +92,33 @@ footer {
   flex: 3;
 }
 img {
-  float: top, left;
+  position: sticky;
+  top: 1px;
 }
 .box-l {
   background: #f1ba7a;
+}
+
+.text-titre {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+footer {
+  background-color: #ebebeb;
+}
+h2 footer {
+  color: #ebebeb;
+}
+body {
+  width: 1080px;
+  height: auto;
+}
+main {
+  margin-top: rem;
+}
+.contacter {
+  background-color: #ebebeb;
+}
+footer li::before {
 }
