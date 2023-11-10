@@ -1,43 +1,33 @@
-html {
+/* Abstract */
+html,
+body {
   background-color: #ffffff;
-}
-header {
-  background-color: #ffffff;
-  display: flex;
   width: 1080px;
-  height: 28rem;
+  height: auto;
 }
 
-.box-r .fond-gris {
-  background-color: #ebebeb;
-  border-radius: 30px;
-  font-family: Montserrat, regular;
-}
+/* Bases */
 .police {
   font-family: Montserrat, regular;
 }
 
-h1 {
-  position: sticky;
-  top: 1px;
-  font-size: 4.3rem;
+h1,
+h2,
+.sous-titre,
+.st-gras {
   font-family: Montserrat, regular;
-  color: #f1ba7a;
-}
-.st-placement {
 }
 
 .sous-titre {
   font-size: 2.6rem;
   text-align: left;
-  font-family: Montserrat, light;
   border-radius: 30px;
   background-color: #ffffff;
 }
+
 .st-gras {
   font-size: 3.3rem;
   text-align: right;
-  font-family: Montserrat, light;
 }
 
 h2 {
@@ -49,17 +39,71 @@ h2 {
   text-align: center;
 }
 
-.box {
+/* Layout */
+header {
+  background-color: #ffffff;
   display: flex;
   width: 1080px;
+  height: 28rem;
 }
 
-.box :first-child {
-  align-self: center;
+img {
+  position: ;
+  top: 10px;
+  width: 26.2rem;
+  height: 26.2rem;
+  margin: 1rem;
+  z-index: 6;
+  border: none;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 250px;
 }
 
-.box-l,
 footer {
+  background-color: #ebebeb;
+  z-index: 5;
+}
+
+footer li::before {
+}
+
+/* Contacter Section */
+.contacter {
+  background-color: #ebebeb;
+  min-height: 10rem;
+  padding: 3rem;
+  margin-top: 3rem;
+  border-radius: 10%;
+}
+
+.contacter h2 {
+  background-color: #ebebeb;
+}
+
+/* Box Styling */
+.box,
+.box2 {
+  display: flex;
+  width: auto;
+}
+
+.box,
+.box-l,
+.box-r,
+.box2,
+.box2-l,
+.box2-r {
+  text-align: left;
+}
+
+.box {
+  width: 1080px;
+  height: 700px;
+  display: flex;
+}
+
+.box-l {
   text-align: left;
   width: 40%;
   flex: 2;
@@ -70,10 +114,6 @@ footer {
   text-align: left;
   width: 60%;
   flex: 3;
-}
-.box2 {
-  display: flex;
-  width: auto;
 }
 
 .box2 :first-child {
@@ -91,10 +131,7 @@ footer {
   width: 60%;
   flex: 3;
 }
-img {
-  position: sticky;
-  top: 1px;
-}
+
 .box-l {
   background: #f1ba7a;
 }
@@ -104,21 +141,24 @@ img {
   flex-direction: column;
   margin-left: 4rem;
 }
-footer {
-  background-color: #ebebeb;
+
+/* Styling */
+h1 {
+  position: sticky;
+  top: 0px;
+  font-size: 4.3rem;
+  font-family: Montserrat, regular;
+  color: #f1ba7a;
+  background-color: #fff;
 }
+
 h2 footer {
   color: #ebebeb;
 }
-body {
-  width: 1080px;
-  height: auto;
-}
-main {
-  margin-top: rem;
-}
-.contacter {
+
+.box-r .fond-gris {
   background-color: #ebebeb;
-}
-footer li::before {
+  border-radius: 30px;
+  font-family: Montserrat, regular;
+  padding: 0.3rem;
 }
