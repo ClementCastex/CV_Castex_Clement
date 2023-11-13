@@ -48,7 +48,6 @@ header {
 }
 
 img {
-  position: ;
   top: 10px;
   width: 26.2rem;
   height: 26.2rem;
@@ -65,16 +64,18 @@ footer {
   z-index: 5;
 }
 
-.mail::before {
-  content: url();
+.mail ::before {
+  content: "✉️";
+  width: 1.5rem;
 }
 
 .tel::before {
-  content: url();
+  content: "📞";
+  width: 1.5rem;
 }
 
 .linkedin::before {
-  content: url("");
+  content: url();
   margin-right: 6px;
 }
 
