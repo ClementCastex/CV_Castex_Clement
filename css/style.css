@@ -46,6 +46,9 @@ header {
   width: 1080px;
   height: 28rem;
 }
+section {
+  padding: 1rem;
+}
 
 img {
   top: 10px;
