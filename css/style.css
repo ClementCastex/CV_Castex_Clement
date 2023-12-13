@@ -86,9 +86,8 @@ footer {
 .contacter {
   background-color: #ebebeb;
   min-height: 10rem;
-  padding: 3rem;
-  margin-top: 3rem;
-  border-radius: 10%;
+  padding-top: 9.4rem;
+  margin-top: -9.4rem;
 }
 
 .contacter h2 {
@@ -175,10 +174,23 @@ h2 footer {
   font-family: Montserrat, regular;
   padding: 0.3rem;
 }
+.rectangle-pointu {
+  position: relative;
+}
 .rectangle-pointu_orange {
+  position: absolute;
   width: 0;
   height: 0;
   border-left: 210px solid transparent;
   border-right: 210px solid transparent;
   border-top: 150px solid #f1ba7a;
+  bottom: 1rem;
+}
+.rectangle-pointu_blanc {
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #ffffff;
+  margin-top: 0.85rem;
 }
