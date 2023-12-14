@@ -239,6 +239,43 @@ h2 footer {
   margin-left: 16px;
 }
 
-.box2 ul strong {
+.box2-r ul {
   list-style-type: none;
+}
+.AD {
+  padding-left: 20px;
+}
+li.K {
+  background-image: url("/images/krita-icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.HC {
+  background-image: url("/images/icone-html.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.IL {
+  background-image: url("/images/icon-illustrator.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.IN {
+  background-image: url("/images/icon-indesign.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.PH {
+  background-image: url("/images/icon-photoshop.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
 }
