@@ -133,6 +133,10 @@ footer {
   flex: 3;
 }
 
+.box-r h2 {
+  margin-left: -2rem;
+}
+
 .box2 :first-child {
   align-self: auto;
 }
@@ -179,9 +183,11 @@ h2 footer {
   font-family: Montserrat, regular;
   padding: 0.3rem;
 }
+
 .rectangle-pointu {
   position: relative;
 }
+
 .rectangle-pointu_orange {
   position: absolute;
   width: 0;
@@ -191,6 +197,7 @@ h2 footer {
   border-top: 150px solid #f1ba7a;
   bottom: 1rem;
 }
+
 .rectangle-pointu_blanc {
   width: 0;
   height: 0;
@@ -199,9 +206,11 @@ h2 footer {
   border-top: 150px solid #ffffff;
   margin-top: 0.85rem;
 }
+
 .top_img {
   position: relative;
 }
+
 .rectangle-pointu_noir {
   position: absolute;
   width: 0;
@@ -213,12 +222,14 @@ h2 footer {
   margin-left: 16px;
   bottom: -8.6rem;
 }
+
 .rectangle_noir {
   min-width: 420px;
   height: 420px;
   background-color: #323232;
   margin: 1rem;
 }
+
 .rectangle-pointu_blanc_top {
   width: 0;
   height: 0;
