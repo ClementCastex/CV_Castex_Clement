@@ -51,10 +51,11 @@ section {
 }
 
 img {
+  position: absolute;
   top: 10px;
-  width: 26.2rem;
-  height: 26.2rem;
-  margin: 1rem;
+  width: 24rem;
+  height: 24rem;
+  margin: 2rem;
   z-index: 6;
   border: none;
   -moz-border-radius: 250px;
@@ -193,4 +194,32 @@ h2 footer {
   border-right: 210px solid transparent;
   border-top: 150px solid #ffffff;
   margin-top: 0.85rem;
+}
+.top_img {
+  position: relative;
+}
+.rectangle-pointu_noir {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #323232;
+  margin-top: -16px;
+  margin-left: 16px;
+  bottom: -8.6rem;
+}
+.rectangle_noir {
+  min-width: 420px;
+  height: 420px;
+  background-color: #323232;
+  margin: 1rem;
+}
+.rectangle-pointu_blanc_top {
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #ffffff;
+  margin-left: 16px;
 }
