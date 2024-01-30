@@ -31,7 +31,7 @@ h2,
 }
 
 h2 {
-  background-color: #f1ba7a;
+  background-color: #674897;
   font-size: 1.875rem;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -154,7 +154,7 @@ footer {
 }
 
 .box-l {
-  background: #f1ba7a;
+  background: #674897;
 }
 
 .text-titre {
@@ -169,7 +169,7 @@ h1 {
   top: 0px;
   font-size: 4.3rem;
   font-family: Montserrat, regular;
-  color: #f1ba7a;
+  color: #674897;
   background-color: #fff;
 }
 
@@ -194,7 +194,7 @@ h2 footer {
   height: 0;
   border-left: 210px solid transparent;
   border-right: 210px solid transparent;
-  border-top: 150px solid #f1ba7a;
+  border-top: 150px solid #674897;
   bottom: 1rem;
 }
 
@@ -217,7 +217,7 @@ h2 footer {
   height: 0;
   border-left: 210px solid transparent;
   border-right: 210px solid transparent;
-  border-top: 150px solid #323232;
+  border-top: 150px solid #23272a;
   margin-top: -16px;
   margin-left: 16px;
   bottom: -8.6rem;
@@ -226,7 +226,7 @@ h2 footer {
 .rectangle_noir {
   min-width: 420px;
   height: 420px;
-  background-color: #323232;
+  background-color: #23272a;
   margin: 1rem;
 }
 
