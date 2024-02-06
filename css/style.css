@@ -37,6 +37,7 @@ h2 {
   border-bottom-right-radius: 30px;
   font-family: Montserrat, regular;
   text-align: center;
+  color: #b7af68;
 }
 
 /* Layout */
@@ -85,6 +86,7 @@ footer {
 
 /* Contacter Section */
 .contacter {
+  color: #23272a;
   text-align: center;
   background-color: #ebebeb;
   min-height: 10rem;
@@ -166,13 +168,15 @@ footer {
 /* Styling */
 h1 {
   position: sticky;
+  color: #674897;
   top: 0px;
   font-size: 4.3rem;
   font-family: Montserrat, regular;
-  color: #674897;
   background-color: #fff;
 }
-
+h1::first-letter {
+  color: #b7af68;
+}
 h2 footer {
   color: #ebebeb;
 }
@@ -244,6 +248,7 @@ h2 footer {
 }
 .AD {
   padding-left: 20px;
+  color: #b7af68;
 }
 li.K {
   background-image: url("/images/krita-icon.png");
