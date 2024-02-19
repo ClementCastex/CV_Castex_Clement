@@ -32,12 +32,15 @@ h2,
 
 h2 {
   background-color: #674897;
-  background-color: #674897;
   font-size: 1.875rem;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   font-family: Montserrat, regular;
   text-align: center;
+  color: #b7af68;
+}
+.box-l h2 {
+  color: black;
 }
 /* Layout */
 header {
@@ -84,11 +87,14 @@ footer {
 
 /* Contacter Section */
 .contacter {
-  text-align: center;
+  text-align: left;
   background-color: #ebebeb;
   min-height: 10rem;
   padding-top: 9.4rem;
-  margin-top: -9.4rem;
+  margin-top: -9.3rem;
+}
+.c-contact {
+  margin-left: 3rem;
 }
 
 .contacter h2 {
@@ -143,7 +149,8 @@ footer {
   margin: 1rem;
   padding-top: 7rem;
   margin-top: 4px;
-  margin-bottom: -160px;
+  margin-bottom: -142px;
+  color: white;
 }
 
 .box-r {
@@ -173,25 +180,21 @@ footer {
 }
 
 .box-l {
-  background: #f1ba7a;
-}
-
-.text-titre {
-  display: flex;
-  flex-direction: column;
-  margin-left: 4rem;
+  background: #674897;
 }
 
 /* Styling */
 h1 {
-  position: sticky;
-  top: 0px;
-  font-size: 4.3rem;
+  margin-top: 2rem;
+  margin-bottom: -1.7rem;
+  font-size: 4.5rem;
   font-family: Montserrat, regular;
-  color: #f1ba7a;
+  color: #674897;
   background-color: #fff;
 }
-
+.castex::first-letter {
+  color: #b7af68;
+}
 h2 footer {
   color: #ebebeb;
 }
@@ -266,6 +269,10 @@ h2 .box-l {
 .AD {
   margin-top: 20px;
   padding-left: 20px;
+  color: #b7af68;
+}
+.-- {
+  color: black;
 }
 li.K {
   background-image: url("/images/krita-icon.png");
